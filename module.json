@@ -1,0 +1,161 @@
+{
+  "id": "earthdawn-community-content",
+  "title": "Earthdawn Community Content",
+  "description": "A module containing content from Fans for Fans (unofficial).",
+  "version": "13.0.0",
+  "authors": [
+    {
+      "name": "Patrick Mohrmann",
+      "discord": "patrickmohrmann#2953"
+    },
+    {
+      "name": "Chris",
+      "discord": "qrizzl"
+    }
+  ],
+  "scripts": [
+		"scripts/welcome-message.js"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "ed4e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "packs": [
+        {
+      "name": "community-journals-en",
+      "label": "Players Guide",
+      "type": "JournalEntry",
+      "path": "packs/community-journal-en",
+      "system": "ed4e",
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      },
+      "banner": "modules/earthdawn-pg-compendium/assets/pictures/banner/slice_1.png"
+    },
+    {
+      "name": "community-items-en",
+      "label": "Items",
+      "type": "Item",
+      "path": "packs/community-items-en",
+      "system": "ed4e",
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      },
+      "banner": "modules/earthdawn-pg-compendium/assets/pictures/banner/slice_2.png"
+    },
+    {
+      "name": "community-actors-en",
+      "label": "Actors",
+      "type": "Actor",
+      "path": "packs/community-actors-en",
+      "system": "ed4e",
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      },
+      "banner": "modules/earthdawn-pg-compendium/assets/pictures/banner/slice_3.png"
+    },
+    {
+      "name": "community-adventures-en",
+      "label": "Adventures",
+      "type": "Adventure",
+      "path": "packs/community-adventures-en",
+      "system": "ed4e",
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      },
+      "banner": "modules/earthdawn-pg-compendium/assets/pictures/banner/slice_4.png"
+    },
+    {
+      "name": "community-cards-en",
+      "label": "Cards",
+      "type": "Cards",
+      "path": "packs/community-cards-en",
+      "system": "ed4e",
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      },
+      "banner": "modules/earthdawn-pg-compendium/assets/pictures/banner/slice_5.png"
+    },
+    {
+      "name": "community-macros-en",
+      "label": "Macros",
+      "type": "Macro",
+      "path": "packs/community-macros-en",
+      "system": "ed4e",
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      },
+      "banner": "modules/earthdawn-pg-compendium/assets/pictures/banner/slice_6.png"
+    },
+    {
+      "name": "community-scene-en",
+      "label": "Scene",
+      "type": "Scene",
+      "path": "packs/community-scene-en",
+      "system": "ed4e",
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      },
+      "banner": "modules/earthdawn-pg-compendium/assets/pictures/banner/slice_7.png"
+    },
+    {
+      "name": "community-playlist-en",
+      "label": "Playlist",
+      "type": "Playlist",
+      "path": "packs/community-playlist-en.db",
+      "system": "ed4e",
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      },
+      "banner": "modules/earthdawn-pg-compendium/assets/pictures/banner/slice_8.png"
+    },
+    {
+      "name": "community-rolltable-en",
+      "label": "Rolltable",
+      "type": "RollTable",
+      "path": "packs/community-rolltable-en.db",
+      "system": "ed4e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "banner": "modules/earthdawn-pg-compendium/assets/pictures/banner/slice_9.png"
+    }
+  ],
+  "media": [
+		{
+			"type": "setup",
+			"url": "modules/earthdawn-pg-compendium/assets/pictures/compendium-banner/setup.jpg"
+		}
+	],
+  "compatibility": {
+    "minimum": 11,
+    "verified": 13,
+    "maximum": 13
+  },
+  "packFolders": [
+    {
+		  "name": "community-content",
+		  "sorting": "m",
+		  "packs": [
+        "community-journals-en",
+        "community-items-en",
+        "community-actors-en",
+        "community-adventures-en",
+        "community-cards-en",
+        "community-macros-en",
+        "community-scene-en",
+        "community-playlist-en",
+        "community-rolltable-en"
+		  ]
+		}
+	],
+  "protected": false,
+  "url": "https://foundryvtt.com/packages/earthdawn-community-content/",
+  "manifest": "https://foundryvtt.s3-us-west-2.amazonaws.com/modules/earthdawn-community-content/module.json"
+}
